@@ -12,7 +12,7 @@ d3.json(url).then(function(data) {
 
 let selector = d3.select('#selDataset');
 
-//-----------------Demographics/Metadata------------------------
+//---------------Demographics/Metadata panel--------------------
 function demoBox(id) {
     d3.json(url).then(function (data) {
         let metadata = data.metadata;
